@@ -3,6 +3,7 @@
 
     ],
     "icon": "minecraft:mycelium",
+    "order": "1",
     "impact": "3",
     "name": "Mycelite",
     "description": "This origin is a mutation of the Floran after being exposed to mushrooms."
