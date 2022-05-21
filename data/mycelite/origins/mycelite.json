@@ -1,6 +1,7 @@
 {
     "powers": [
-        "origins:vegetarian"
+        "origins:vegetarian",
+        "mycelite:limited-climb"
     ],
     "icon": "minecraft:mycelium",
     "order": "1",
