@@ -1,11 +1,11 @@
 {
 	"powers": [
 		"origins:vegetarian",
-		"mycelite:mycelite_powers/size_shift"
+		"mycelite:size_shift"
 	],
 	"icon": "minecraft:mycelium",
 	"order": 4,
 	"impact": 3,
 	"name": "Mycelite",
-	"description": "A sub-species of floran exposed to the mutations of mushrooms."
+	"description": "A sub-species of Floran mutated by being near mushrooms and mycelium."
 }
