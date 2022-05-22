@@ -1,0 +1,9 @@
+{
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+      "type": "extraorigins:modify_size",
+      "scale": 0.45,
+      "name": "Fungal Growth",
+      "description": "Due to your mushroom mutations, you grow in."
+}

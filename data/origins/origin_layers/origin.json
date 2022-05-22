@@ -1,6 +1,6 @@
 {
-    "replace": false,
-    "origins": [
-      "mycelite:mycelite"
-    ]
+  "replace": false,
+  "origins": [
+    "mycelite:mycelite"
+  ]
 }
