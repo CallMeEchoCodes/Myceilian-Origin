@@ -1,6 +1,7 @@
 {
 	"powers": [
 		"origins:vegetarian",
+		"extraorigins:flammable",
 		"myceilian:size_shift",
 		"myceilian:health_shift"
 	],
