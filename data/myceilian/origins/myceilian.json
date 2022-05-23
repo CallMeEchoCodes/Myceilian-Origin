@@ -3,7 +3,8 @@
 		"origins:vegetarian",
 		"extraorigins:flammable",
 		"myceilian:size_shift",
-		"myceilian:health_shift"
+		"myceilian:health_shift",
+		"myceilian:suction_hands_hidden"
 	],
 	"icon": "minecraft:mycelium",
 	"order": 4,
