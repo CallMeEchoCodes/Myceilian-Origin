@@ -27,5 +27,6 @@
                 "compare_to": 1
             }
         ]
-    }
+    },
+    "hidden": true
 }
