@@ -1,11 +1,12 @@
 {
 	"powers": [
 		"origins:vegetarian",
-		"mycelite:size_shift"
+		"myceilian:size_shift",
+		"myceilian:health_shift"
 	],
 	"icon": "minecraft:mycelium",
 	"order": 4,
 	"impact": 3,
-	"name": "Mycelite",
+	"name": "Myceilian",
 	"description": "A sub-species of Floran mutated by being near mushrooms and mycelium."
 }
