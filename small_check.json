@@ -1,0 +1,33 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action":{
+    "type": "origins:change_resource",
+    "resource":"myceilian:size_bar",
+    "change": -1
+  },
+  "interval": 20,
+
+  "condition": {
+      "type": "origins:and",
+      "conditions": [
+          {
+              "type": "origins:brightness",
+              "comparison": ">=",
+              "compare_to": 0.25
+          },
+          {
+              "type": "origins:block_in_radius",
+              "inverted": true,
+              "block_condition": {
+                      "type": "origins:block",
+                      "block": "minecraft:mycelium"
+              },
+              "radius": 25,
+              "shape": "cube",
+              "comparison": ">=",
+              "compare_to": 1
+        }
+      ]
+    },
+    "hidden": true
+  }
