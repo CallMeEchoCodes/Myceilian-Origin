@@ -3,30 +3,16 @@
     "modifier": {
         "attribute": "minecraft:generic.max_health",
         "operation": "addition",
-        "value": -12
+        "value": -10
     },
     "tick_rate": 20,
+
     "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "type": "origins:brightness",
-                "comparison": ">=",
-                "compare_to": 0.25
-            },
-            {
-                "type": "origins:block_in_radius",
-                "inverted": true,
-                "block_condition": {
-                        "type": "origins:block",
-                        "block": "minecraft:mycelium"
-                },
-                "radius": 25,
-                "shape": "cube",
-                "comparison": ">=",
-                "compare_to": 1
-            }
-        ]
+      "type":"origins:resource",
+      "resource":"myceilian:size_bar",
+      "comparison": "==",
+      "compare_to": 0
+
     },
     "hidden": true
 }
