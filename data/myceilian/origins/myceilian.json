@@ -4,7 +4,13 @@
 		"extraorigins:flammable",
 		"myceilian:size_shift",
 		"myceilian:health_shift",
-		"myceilian:suction_hands_hidden"
+		"myceilian:suction_hands_hidden",
+		"myceilian:limited-climb",
+		"myceilian:limited-climb-else",
+		
+		"myceilian:size_bar",
+		"myceilian:big_check",
+		"myceilian:small_check"
 	],
 	"icon": "minecraft:mycelium",
 	"order": 4,
