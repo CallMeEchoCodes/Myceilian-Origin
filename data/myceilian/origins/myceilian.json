@@ -15,7 +15,9 @@
 		"myceilian:small_check",
 		"myceilian:fall_squish",
 		"myceilian:respawn_fix",
-		"myceilian:suction_hands_hidden"
+		"myceilian:suction_hands_hidden",
+		"myceilian:climb_check",
+		"myceilian:climb_check_big"
 	],
 	"icon": "minecraft:mycelium",
 	"order": 4,
