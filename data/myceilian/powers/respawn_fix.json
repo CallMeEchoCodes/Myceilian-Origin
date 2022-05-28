@@ -1,0 +1,13 @@
+{
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+        "type":"origins:delay",
+        "ticks": 20,
+        "action": {
+          "type": "origins:change_resource",
+          "resource":"myceilian:size_bar",
+          "change": 1
+          }
+      },
+    "hidden": true
+}

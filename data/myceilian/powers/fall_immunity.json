@@ -1,0 +1,9 @@
+{
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  },
+  "name": "Squishy",
+  "description": "Your mushroom body is so squishy it causes you to take no damage from falling, and reduced weapon damage."
+}

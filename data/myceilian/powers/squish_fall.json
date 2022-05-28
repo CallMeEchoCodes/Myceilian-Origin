@@ -1,0 +1,17 @@
+{
+    "type": "origins:action_over_time",
+    "rising_action": {
+      "type": "origins:execute_command",
+      "command": "scale set extraorigins:modify_size 0.5"
+    },
+    "falling_action": {
+      "type": "origins:execute_command",
+      "command": "scale set extraorigins:modify_size 1"
+    },
+    "interval": 10,
+    "damage_condition": {
+    "type":"origins:name",
+    "name": "fall"
+    },
+    "hidden": true
+    }

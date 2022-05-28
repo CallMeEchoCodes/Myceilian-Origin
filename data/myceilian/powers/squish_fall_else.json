@@ -1,0 +1,13 @@
+{
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "scale set pehkui:height 1"
+  },
+"condition": {
+  "type":"origins:resource",
+  "resource":"pehkui:height",
+  "comparison": "<=",
+  "compare_to": .5
+},
+"hidden": true
+}
