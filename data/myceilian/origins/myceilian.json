@@ -1,17 +1,20 @@
 {
 	"powers": [
+		"origins:vegetarian",
+		"extraorigins:flammable",
 		"myceilian:size_shift",
+		"myceilian:health_shift",
 		"myceilian:limited-climb",
 		"myceilian:limited-climb-else",
-		"extraorigins:flammable",
-		"origins:vegetarian",
-		
-		"myceilian:health_shift",
-		"myceilian:suction_hands_hidden",
-		
+		"myceilian:fall_immunity",
+		"myceilian:poison_immunity",
+
 		"myceilian:size_bar",
 		"myceilian:big_check",
-		"myceilian:small_check"
+		"myceilian:small_check",
+		"myceilian:fall_squish",
+		"myceilian:respawn_fix",
+		"myceilian:suction_hands_hidden"
 	],
 	"icon": "minecraft:mycelium",
 	"order": 4,
