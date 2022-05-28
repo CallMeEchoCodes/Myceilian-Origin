@@ -1,13 +1,13 @@
 {
 	"powers": [
+		"myceilian:size_shift",
+		"myceilian:fall_immunity",
+		"myceilian:limited-climb",
+		"myceilian:poison_immunity",
 		"origins:vegetarian",
 		"extraorigins:flammable",
-		"myceilian:size_shift",
 		"myceilian:health_shift",
-		"myceilian:limited-climb",
 		"myceilian:limited-climb-else",
-		"myceilian:fall_immunity",
-		"myceilian:poison_immunity",
 		"myceilian:damage_reduction",
 
 		"myceilian:size_bar",
