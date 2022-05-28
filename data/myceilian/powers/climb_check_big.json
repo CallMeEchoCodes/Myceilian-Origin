@@ -1,0 +1,68 @@
+{
+  "type": "origins:multiple",
+  "climb_bar" : {
+  "type":"origins:resource",
+  "min":0,
+  "max":20,
+  "start_value":0,
+  "hud_render": {
+    "bar_index":2,
+    "condition":{
+      "type":"origins:resource",
+      "resource":"myceilian:size_bar",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  }
+},
+  "start": {
+    "type": "origins:action_over_time",
+    "interval": 8,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_climb_bar",
+      "change": 1
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:block_collision",
+              "offset_x": 0.1,
+              "offset_y": 0,
+              "offset_z": 0.1
+            },
+            {
+              "type": "origins:block_collision",
+              "offset_x": -0.1,
+              "offset_y": 0,
+              "offset_z": -0.1
+            }
+          ]
+        },
+        {
+          "type": "origins:fall_distance",
+          "comparison": "==",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:on_block",
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "end": {
+    "type": "origins:action_on_land",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_climb_bar",
+      "change": 0,
+      "operation": "set"
+      }
+    },
+    "hidden": true
+  }
