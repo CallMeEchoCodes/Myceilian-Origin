@@ -1,12 +1,13 @@
 {
 	"powers": [
-		"origins:vegetarian",
-		"extraorigins:flammable",
 		"myceilian:size_shift",
-		"myceilian:health_shift",
-		"myceilian:suction_hands_hidden",
 		"myceilian:limited-climb",
 		"myceilian:limited-climb-else",
+		"extraorigins:flammable",
+		"origins:vegetarian",
+		
+		"myceilian:health_shift",
+		"myceilian:suction_hands_hidden",
 		
 		"myceilian:size_bar",
 		"myceilian:big_check",
@@ -16,5 +17,5 @@
 	"order": 4,
 	"impact": 3,
 	"name": "Myceilian",
-	"description": "A sub-species of Floran mutated by being near mushrooms and mycelium."
+	"description": "A mushroom mutated by a mysterious force"
 }

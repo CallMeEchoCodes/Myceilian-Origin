@@ -10,27 +10,12 @@
     },
     "interval": 20,
     "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "type": "origins:brightness",
-                "comparison": ">=",
-                "compare_to": 0.25
-            },
-            {
-                "type": "origins:block_in_radius",
-                "inverted": true,
-                "block_condition": {
-                        "type": "origins:block",
-                        "block": "minecraft:mycelium"
-                },
-                "radius": 25,
-                "shape": "cube",
-                "comparison": ">=",
-                "compare_to": 1
-            }
-        ]
-    },
+        "type":"origins:resource",
+        "resource":"myceilian:size_bar",
+        "comparison": "==",
+        "compare_to": 0
+  
+      },
     "name": "Fungal Growth",
     "description": "Being a mushroom you have an aversion to light. when you are in the light, you will be shrunk and have 6 hearts taken off of your max health unless you are within 50 blocks of mycelium."
 }
