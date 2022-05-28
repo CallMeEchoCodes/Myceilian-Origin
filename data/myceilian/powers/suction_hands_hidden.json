@@ -6,5 +6,6 @@
             "tag": "myceilian:unwieldable"
         }
     },
-    "hidden" : true    
+    "name": "Suction Hands",
+	"description": "Because you have suction like hands, you can climb but your hands loose stick over time. Unfortunatly this means you cant hold a bow."    
 }
