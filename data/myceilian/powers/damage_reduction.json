@@ -1,0 +1,32 @@
+{
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:name",
+                "name": "mob"
+            },
+            {
+                "type": "origins:name",
+                "name": "player"
+            },
+            {
+                "type": "origins:name",
+                "name": "arrow"
+            },
+            {
+                "type": "origins:name",
+                "name": "trident"
+            },
+            {
+                "type": "origins:name",
+                "name": "anvil"
+            }
+        ]
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": -0.1
+    }
+}
