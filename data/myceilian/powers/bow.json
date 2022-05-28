@@ -1,0 +1,15 @@
+{
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": [
+			{
+				"item": "bow"
+			},
+			{
+				"item": "crossbow"
+			}
+		]
+	},
+	"name":"Suction Hands"
+}
