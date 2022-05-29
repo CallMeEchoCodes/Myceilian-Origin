@@ -16,5 +16,5 @@
       "compare_to": 0
     },
     "name": "Light Aversion",
-    "description": "Being a mushroom you cannot grow in the light. As a result, when you are in the light, you will be shrunk and have 6 hearts taken off of your max health unless you are within 25 blocks of mycelium."
+    "description": "Being a mushroom you cannot grow in the light. As a result, when you are in the light, you will be shrunk and have 6 hearts taken off of your max health unless you are close to myceilium or mushroom blocks."
 }
