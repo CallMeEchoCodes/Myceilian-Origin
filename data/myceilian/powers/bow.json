@@ -1,0 +1,16 @@
+{
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": [
+			{
+				"item": "bow"
+			},
+			{
+				"item": "crossbow"
+			}
+		]
+	},
+	"name":"Suction Hands",
+	"description": "Because of your mushroom heritage you have suction like sticky hands, meaning you can climb up walls but your hands will loose stick over time. Unfortunatly this means you cant hold a bow."
+}
